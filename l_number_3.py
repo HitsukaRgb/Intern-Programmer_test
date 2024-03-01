@@ -30,7 +30,7 @@ def fast_sort(arr: list) -> list:
     # return arr
     """Время выполнения сортировки используя sorted(*args) составляет - 0.40109 сек. на 1_000_000 итераций что 
     является самым быстрым способом сортировки"""
-    return sorted(arr, key=len)
+    return sorted(arr)
 
 
 """
